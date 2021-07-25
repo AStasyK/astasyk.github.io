@@ -16,5 +16,6 @@ module.exports = {
         ],
       },
     },
-  }
+  },
+  siteUrl: 'https://astasyk.github.io'
 }
