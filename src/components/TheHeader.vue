@@ -1,7 +1,7 @@
 <template>
   <header class="header p-3 rounded-t-lg">
     <strong>
-      <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+      <g-link to="/" class="text-white">{{ $static.metadata.siteName }}</g-link>
     </strong>
     <nav class="nav">
       <button class="theme__toggle" v-if="darkTheme" @click="switchTheme(true)">

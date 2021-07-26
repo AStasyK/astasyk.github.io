@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="text-3xl font-bold my-5 text-center">Опыт работы</h1>
+    <h1 class="text-xl sm:text-3xl font-bold my-5 text-center">Опыт работы</h1>
     <Company v-for="company in experience" :key="`company-${company.id}`" :company="company" />
   </Layout>
 </template>

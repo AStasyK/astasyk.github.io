@@ -3,7 +3,7 @@
     <TheHeader />
     <div class="main-container flex flex-wrap md:flex-nowrap">
       <TheSideBar />
-        <main class="w-full md:w-8/12 rounded-br-lg h-full py-3 px-8">
+        <main class="w-full md:w-8/12 rounded-br-lg h-full py-3 px-3 md:px-8">
           <transition name="fade" appear>
             <router-view></router-view>
           </transition>
@@ -63,6 +63,12 @@ body {
   line-height: 1.5;
   position: relative;
   background: linear-gradient(to bottom left, hsl(270, 80%, 60%), hsl(300, 80%, 60%), hsl(310, 50%, 80%));
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    padding: 10px;
+  }
 }
 
 

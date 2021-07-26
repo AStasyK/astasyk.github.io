@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="text-3xl font-bold my-5 text-center">Профессиональные навыки</h1>
+    <h1 class="text-xl sm:text-3xl font-bold my-5 text-center">Профессиональные навыки</h1>
     <SkillCategory
       v-for="skillCategory in skills" :key="`category-${skillCategory.id}`"
       :skillCategory="skillCategory" />
@@ -20,7 +20,7 @@ export default {
       {
         id: 1,
         name: 'Frontend',
-        skills: 'Vue.js/Angular, HTML, CSS/SCSS,\nBootstrap/Bulma/Vuetify/Angular Material/TailwindCSS'
+        skills: 'Vue.js / Angular, HTML, CSS / SCSS,\nBootstrap / Bulma / Vuetify / Angular Material / TailwindCSS'
       },
       {
         id: 2,

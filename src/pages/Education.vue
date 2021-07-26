@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="text-3xl font-bold my-5 text-center">Высшее образование</h1>
+    <h1 class="text-xl sm:text-3xl font-bold my-5 text-center">Высшее образование</h1>
     <University v-for="university in education" :key="`uni-${university.id}`" :uni="university" />
   </Layout>
 </template>

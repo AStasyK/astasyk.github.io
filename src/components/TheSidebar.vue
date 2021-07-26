@@ -8,12 +8,8 @@
     <!-- links -->
     <div id="page-links" class="flex flex-wrap justify-center md:block mt-5 mb-3 text-center px-5">
       <g-link
-        class="nav__link rounded-lg text-center block mx-2 p-3 md:mx-0 mb-2 md:mb-5"
-        to="/"
-      >На главную</g-link>
-      <g-link
         v-for="(link, idx) in links" :key="idx"
-        class="nav__link rounded-lg text-center block mx-2 p-3 md:mx-0 mb-2 md:mb-5"
+        class="nav__link rounded-lg text-center block mx-2 py-1 px-2 sm:p-3 md:mx-0 mb-2 md:mb-5"
         :to="link.address"
       >
         {{link.name}}
@@ -21,11 +17,11 @@
     </div>
     <!-- contacts -->
     <div id="contacts" class="p-3 text-center">
-      <h3 class="text-md">Контакты: 
+      <h3 class="text-white">Контакты: 
         <g-link to="https://career.habr.com/kuchurinaaa" class="contact__link font-bold">Хабр Карьера</g-link>
       </h3>
     </div>
-    <div id="copyright" class="text-center my-2">{{new Date().getFullYear()}}. &copy; Анастасия Кучурина</div>
+    <div id="copyright" class="text-center text-white my-2">{{new Date().getFullYear()}}. &copy; Анастасия Кучурина</div>
   </aside>
 </template>
 
@@ -33,6 +29,7 @@
 export default {
   data: () => ({
     links: [
+      { address: '/', name: 'На главную' },
       { address: '/skills/', name: 'Профессиональные навыки' },
       { address: '/experience/', name: 'Опыт' },
       { address: '/education/', name: 'Образование' },
