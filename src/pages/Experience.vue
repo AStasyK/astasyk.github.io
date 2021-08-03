@@ -24,7 +24,7 @@ export default {
           'Разработка MVP проекта на Vue.js (Vuex, Vue router)',
           'Разработка интерфейсов на Angular, React',
           'Разработка бэкэндов на Laravel, Django, Express.js',
-          'Разработка бэкэндов на Laravel, Django, Express.js',
+          'Написание парсеров текстовых файлов на Node.js',
           'Продумывание архитектуры приложений',
           'Разработка интерфейсов как SPA + API, так и в стиле HTML over the Wire + микрофронтенды',
           'Учебный Space Shooter на Unity'
@@ -47,7 +47,7 @@ export default {
           'Написание автоматических тестов: Rspec + Watir',
           'Участие во VueSchool в качестве ментора'
         ],
-        skillsUsed: ['Angular', 'Typescript', 'Spring Boot', 'Oracle', 'Vue.js', 'Ruby on Rails', 'Ruby']
+        skillsUsed: ['Angular', 'Typescript', 'Spring Boot', 'Oracle', 'Vue.js', 'Ruby on Rails', 'Ruby', 'Rspec']
       },
       {
         id: 3,
