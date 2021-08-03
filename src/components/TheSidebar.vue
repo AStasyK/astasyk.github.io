@@ -46,6 +46,9 @@ aside {
 .nav__link {
   background-color: var(--color-bg);
 }
+.nav__link.active--exact {
+  background-color: rgb(0, 131, 92);
+}
 .contact__link {
   color: rgb(0, 131, 92);
 }
